@@ -2,6 +2,8 @@
 //An example of this is "angel", which is an anagram of "glean".
 // Write a function that receives an array of words, and returns the total number of distinct pairs of anagramic words inside it.
 
+const words = ["dell", "ledl", "abc", "cba", "bca", "bac"];
+
 function alphabetize(word) {
 
     word = word.split('').sort().join('');
